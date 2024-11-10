@@ -1,45 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>email marketing</title>
-    <style type="text/css">
-        body {
-            font-family: sans-serif;
-        }
-    </style>
-</head>
-<body bgcolor="#a1a9c4">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <center>
-        <table width="600" cellspacing="0" cellpadding="0">
-            <tr>
-                <td>
-                    <img src="./src/img/promoçao-removebg-preview.png" alt="Cabeçalho" width="350px" height="350px">
+      <table
+        class="email-container"
+        cellpadding="0"
+        cellspacing="0"
+        width="100%"
+      >
+        <tr>
+          <td align="center">
+            <table
+              class="email-content"
+              cellpadding="0"
+              cellspacing="0"
+              width="600"
+            >
+              <!-- Cabeçalho -->
+              <tr>
+                <td class="header" align="center" bgcolor="#333">
+                  <img
+                    src="./src/img/promoçao-removebg-preview.png"
+                    alt="Logo da Empresa"
+                    width="150"
+                    height="150"
+                    style="margin: 20px 0"
+                  />
                 </td>
-            </tr>
-            <tr align="center">
-                <td style="padding-top: 30px 0px 30px opx;">
-                    <img src="./src/img/png-transparent-pair-of-black-leather-dress-shoes-art-dress-shoe-black-men-shoes-leather-fashion-outdoor-shoe-thumbnail-removebg-preview (1).png" alt="Imagem Notbook" width="300px" height="300px">
-                    <h1 style="color: #5F3AA2;">Invação para transformar</h1>
-                    <p >Encontre o calcçado ideal para o dia a dia da semana</p>
-                    <a href="#" target="_blank">
-                        <img src="./src/img/image_preview-removebg-preview.png" alt="Botão Conhecer sobre" width="100px" height="100px"/>
-                    </a>
+              </tr>
+              <!-- Banner -->
+              <tr>
+                <td align="center">
+                    <img 
+                    src="./src/img/camisa_social-removebg-preview.png"
+                    alt="Promoção"
+                    width="250"
+                    height="250"
+                    style="display: block"
+                    >
                 </td>
-            </tr>
-            <tfoot colspan="3" align="center">
-                <tr>
-                    <td colspan="3">
-                        <p>Para mais informações acesse:
-                            <a href="#" target="_blank">sapatosocial</a>
-                        </p> 
-                    </td>
-                </tr>
-            </tfoot>
-        </table>
+            
+                </td>
+              </tr>
+              <!-- Corpo do E-mail -->
+              <tr>
+                <td class="body" bgcolor="#ffffff" style="padding: 20px" align="center">
+                  <h1>Descontos Imperdíveis!</h1>
+                  <p>
+                    Aproveite até 50% de desconto em nossa linha de produtos
+                    selecionados.
+                  </p>
+                  <a href="#" class="cta-button">Ver Promoção</a>
+                </td>
+              </tr>
+              <!-- Rodapé -->
+              <tr>
+                <td
+                  class="footer"
+                  bgcolor="#333"
+                  align="center"
+   
+                  style="padding: 10px; color: #fff"
+                >
+                  <p>
+                    Você recebeu este e-mail porque se inscreveu em nossa
+                    newsletter.
+                  </p>
+                  <p><a href="#" style="color: #fff">Cancelar inscrição</a></p>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
     </center>
-    
-</body>
+  </body>
 </html>
